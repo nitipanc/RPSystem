@@ -25,7 +25,8 @@ void XC_ErrorDisplay::DisplayDate()
 	seconds_last = curTime.tv_sec;
 
 	strftime(TimeString, 80, "%Y-%m-%d %H:%M:%S", localtime(&curTime.tv_sec));
-}
+	printf("Logging date&time: |%s| \n",TimeString);
+ }
 
 void XC_ErrorDisplay::SetDate(int year, int month, int day)
 {
