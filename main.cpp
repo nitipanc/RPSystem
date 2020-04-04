@@ -1,5 +1,5 @@
 /*
- * File name   : blinkingLed.c
+ * File name   : main.cpp
  * Description : Make an led blinking.
  * Website     : www.adeept.com
  * E-mail      : support@adeept.com
