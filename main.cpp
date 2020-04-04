@@ -1,9 +1,9 @@
 /*
  * File name   : main.cpp
- * Description : Make an led blinking.
- * Website     : www.adeept.com
- * E-mail      : support@adeept.com
- * Author      : Jason
+ * Description :
+ * Website     : 
+ * E-mail      : 
+ * Author      : Niti
  * Date        : 2015/05/02
  */
 #include <wiringPi.h>
