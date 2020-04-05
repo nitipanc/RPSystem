@@ -1,6 +1,6 @@
 /*
- * File name   : blinkingLed.c
- * Description : Make an led blinking.
+ * File name   : main.cpp
+ * Description : Main for RPSystem
  * Website     : www.adeept.com
  * E-mail      : support@adeept.com
  * Author      : Jason
