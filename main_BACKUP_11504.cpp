@@ -1,8 +1,16 @@
 /*
+ * File name   : main.cpp
+<<<<<<< HEAD
+ * Description : Main for RPSystem
+ * Website     : www.adeept.com
+ * E-mail      : support@adeept.com
+ * Author      : Jason
+=======
  * Description :
  * Website     : 
  * E-mail      : 
  * Author      : Niti
+>>>>>>> master
  * Date        : 2015/05/02
  */
 #include <wiringPi.h>
