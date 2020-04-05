@@ -1,9 +1,5 @@
-main.o: ../main.cpp D:\wiringPi\wiringPi/wiringPi.h \
- D:\RasBerryPiApplications\RasBerryPiSoftware\RPSystem\RPCore\RPA_ErrorHandle/RPA_ErrorDisplay.h \
- ../Version.h
-
-D:\wiringPi\wiringPi/wiringPi.h:
-
-D:\RasBerryPiApplications\RasBerryPiSoftware\RPSystem\RPCore\RPA_ErrorHandle/RPA_ErrorDisplay.h:
+main.o: ../main.cpp ../Version.h ../RPCore/RPInitializer/RPInitializer.h
 
 ../Version.h:
+
+../RPCore/RPInitializer/RPInitializer.h:

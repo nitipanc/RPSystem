@@ -8,6 +8,7 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include RPCore/RPInitializer/subdir.mk
 -include RPCore/RPA_ErrorHandle/subdir.mk
 -include RPApplication/RPA_TempSensor/subdir.mk
 -include subdir.mk

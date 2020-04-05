@@ -25,5 +25,6 @@ CPP_DEPS :=
 SUBDIRS := \
 RPApplication/RPA_TempSensor \
 RPCore/RPA_ErrorHandle \
+RPCore/RPInitializer \
 . \
 
