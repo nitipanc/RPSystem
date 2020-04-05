@@ -9,6 +9,7 @@
 #include <stdio.h>
 #define  LedPin   0
 #include "RPA_ErrorDisplay.h"
+#include  "Version.h"
 
 int main(void) {
 
@@ -20,7 +21,8 @@ int main(void) {
 		return -1;
 	}else
 	{
-		ED1.SetDate(14,11,85);
+		printf("The version is %s",VERSION);
+
 	}
 
 	pinMode(LedPin, OUTPUT);
