@@ -1,0 +1,4 @@
+[submodule "wiringPi"]
+	path = wiringPi
+	url = https://github.com/nitipanc/wiringPi
+	branch = master
