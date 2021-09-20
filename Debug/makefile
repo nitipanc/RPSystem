@@ -8,6 +8,7 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include RPCore/RPInitializer/subdir.mk
 -include RPCore/RPA_ErrorHandle/subdir.mk
 -include RPApplication/RPA_TempSensor/subdir.mk
 -include subdir.mk
@@ -36,16 +37,27 @@ endif
 
 -include ../makefile.defs
 
+OPTIONAL_TOOL_DEPS := \
+$(wildcard ../makefile.defs) \
+$(wildcard ../makefile.init) \
+$(wildcard ../makefile.targets) \
+
+
+BUILD_ARTIFACT_NAME := RPSystem
+BUILD_ARTIFACT_EXTENSION :=
+BUILD_ARTIFACT_PREFIX :=
+BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
+
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
 all: RPSystem
 
 # Tool invocations
-RPSystem: $(OBJS) $(USER_OBJS)
+RPSystem: $(OBJS) $(USER_OBJS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross G++ Linker'
-	arm-linux-gnueabihf-g++  -o "RPSystem" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-linux-gnueabihf-g++ -L"D:\GitRepository\wiringPi\wiringPi" -o "RPSystem" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
