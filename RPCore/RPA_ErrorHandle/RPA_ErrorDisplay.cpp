@@ -28,7 +28,8 @@ void XC_ErrorDisplay::DisplayDate()
 	printf("Logging date&time: |%s| \n",TimeString);
  }
 
-void XC_ErrorDisplay::SetDate(int year, int month, int day)
-{
+//void XC_ErrorDisplay::SetDate(int year, int month, int day)
+//{
+//
+//}
 
-}

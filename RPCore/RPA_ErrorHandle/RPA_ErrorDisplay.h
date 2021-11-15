@@ -22,7 +22,6 @@ private:
 
 public:
 	void DisplayDate();
-	void SetDate(int year, int month, int day);
 
 	int getYear()
 	{

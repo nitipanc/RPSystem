@@ -14,7 +14,7 @@ private:
 
 
 public:
-	// init all syste  class
+	// init all system  class
 	void RPSAPPinit();
 	// init all core class
 	void RPSCoreinit();

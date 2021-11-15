@@ -2,3 +2,7 @@
 	path = wiringPi
 	url = https://github.com/nitipanc/wiringPi
 	branch = master
+[submodule "Modelio"]
+	path = Modelio
+	url = https://github.com/nitipanc/Modelio
+	branch = main
