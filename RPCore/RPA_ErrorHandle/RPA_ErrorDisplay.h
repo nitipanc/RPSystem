@@ -12,7 +12,6 @@
 #include <stdio.h>
 
 
-
 class XC_ErrorDisplay
 {
 private:

@@ -9,7 +9,6 @@
 #include <stdio.h>
 #define  LedPin   0
 #include "RPA_ErrorDisplay.h"
-
 void RPInitializer::RPSAPPinit()
 {
 	}
