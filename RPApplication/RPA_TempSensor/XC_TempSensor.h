@@ -8,7 +8,19 @@
 #ifndef RPA_TEMPSENSOR_XC_TEMPSENSOR_H_
 #define RPA_TEMPSENSOR_XC_TEMPSENSOR_H_
 
+#include "ds18b20.h"
+#include <stdio.h>
 
+class RPA_TEMPSENSOR_XC_TEMPSENSOR
+
+{
+private:
+
+public:
+	// init temp sensor
+	void inittempsensor();
+
+};
 
 
 
