@@ -19,7 +19,7 @@ void XC_ErrorDisplay::DisplayDate()
 
 	timeval curTime;
 	gettimeofday(&curTime, NULL);
-	if (seconds_last == curTime.tv_sec)
+ 	if (seconds_last == curTime.tv_sec)
 		return;
 
 	seconds_last = curTime.tv_sec;
