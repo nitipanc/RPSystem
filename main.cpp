@@ -9,13 +9,14 @@
 #include <stdio.h>
 #include "RPCore/RPInitializer/RPInitializer.h"
 
-int main(void) {
+int main(void)
+{
 
-	printf("The Firmware version is %s",VERSION);
+	printf("The Firmware version is %s", VERSION);
 	RPInitializer m_RPInit;
 
-    m_RPInit.RPSAPPinit();
-     m_RPInit.RPSCoreinit();
+	m_RPInit.RPSAPPinit();
+	m_RPInit.RPSCoreinit();
 	return 0;
 }
 ;
