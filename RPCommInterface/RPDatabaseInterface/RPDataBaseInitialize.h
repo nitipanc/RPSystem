@@ -10,6 +10,19 @@
 
 
 
+class RPDataBasedConfigParameter
+{
+public:
+	static constexpr const char *Hostname = "niti";
+	static const int Port = 3306;
+	static constexpr const char *User = "pi";
+	static constexpr const char *Password = "1985";
+	static constexpr const char *UnixSocket = "TCP";
+	static constexpr const char *Database = "MyFirstDatabase";
+};
+// create user account
+
+
 
 
 #endif /* RPCOMMINTERFACE_RPDATABASEINTERFACE_RPDATABASEINITIALIZE_H_ */

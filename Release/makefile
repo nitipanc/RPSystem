@@ -10,6 +10,7 @@ RM := rm -rf
 -include sources.mk
 -include RPCore/RPInitializer/subdir.mk
 -include RPCore/RPA_ErrorHandle/subdir.mk
+-include RPCommInterface/RPDatabaseInterface/subdir.mk
 -include RPApplication/RPA_TempSensor/subdir.mk
 -include subdir.mk
 -include objects.mk
@@ -46,7 +47,7 @@ all: RPSystem
 RPSystem: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross G++ Linker'
-	arm-linux-gnueabihf-g++ -L"D:\GitRepository\wiringPi\wiringPi" -o "RPSystem" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-linux-gnueabihf-g++ -L"D:\GitRepository\wiringPi\wiringPi" -L"C:\Users\nitip\eclipse-workspace\DBMaria" -o "RPSystem" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

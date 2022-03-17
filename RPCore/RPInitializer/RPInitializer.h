@@ -14,11 +14,14 @@ private:
 
 
 public:
+	// init all the tables;
+	void RPDatabaseInterfaceinit();
+
 	// init all system  class
 	void RPSAPPinit();
+
 	// init all core class
 	void RPSCoreinit();
-	// init all the tables;
 
 
 

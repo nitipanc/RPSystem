@@ -10,7 +10,7 @@
 
 void RPA_TEMPSENSOR_XC_TEMPSENSOR::inittempsensor()
 {
-	printf("First Level init");
+	printf("Temperature init \n");
 
 }
 
