@@ -8,6 +8,7 @@
 #ifndef RPINITIALIZER_RPINITIALIZER_H_
 #define RPINITIALIZER_RPINITIALIZER_H_
 
+
 class RPInitializer
 {
 private:
@@ -22,9 +23,6 @@ public:
 
 	// init all core class
 	void RPSCoreinit();
-
-
-
 };
 
 

@@ -47,7 +47,7 @@ all: RPSystem
 RPSystem: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross G++ Linker'
-	arm-linux-gnueabihf-g++ -L"D:\GitRepository\wiringPi\wiringPi" -o "RPSystem" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-linux-gnueabihf-g++ -L"D:\GitRepository\wiringPi\wiringPi" -L"D:\GitRepository\mysql-8.0.28-linux-glibc2.12-i686\lib" -o "RPSystem" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

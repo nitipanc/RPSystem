@@ -9,7 +9,6 @@
 #define RPCOMMINTERFACE_RPDATABASEINTERFACE_RPDATABASEINITIALIZE_H_
 
 
-
 class RPDataBasedConfigParameter
 {
 public:
@@ -20,9 +19,8 @@ public:
 	static constexpr const char *UnixSocket = "TCP";
 	static constexpr const char *Database = "MyFirstDatabase";
 };
+
+
 // create user account
-
-
-
 
 #endif /* RPCOMMINTERFACE_RPDATABASEINTERFACE_RPDATABASEINITIALIZE_H_ */

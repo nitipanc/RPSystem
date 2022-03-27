@@ -4,5 +4,5 @@
 
 USER_OBJS :=
 
-LIBS := -lWiringpi
+LIBS := -lpthread -lmariadbclient -lWiringpi
 
