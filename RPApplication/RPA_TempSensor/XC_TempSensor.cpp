@@ -5,7 +5,6 @@
  *      Author: niti
  */
 #include "XC_TempSensor.h"
-#include <stdio.h>
 
 
 void RPA_TEMPSENSOR_XC_TEMPSENSOR::inittempsensor()

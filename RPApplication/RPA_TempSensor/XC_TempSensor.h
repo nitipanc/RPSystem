@@ -8,6 +8,7 @@
 #ifndef RPA_TEMPSENSOR_XC_TEMPSENSOR_H_
 #define RPA_TEMPSENSOR_XC_TEMPSENSOR_H_
 
+#include <stdio.h>
 #include "ds18b20.h"
 #include <stdio.h>
 

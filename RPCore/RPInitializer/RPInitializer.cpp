@@ -64,8 +64,9 @@ void RPInitializer::RPSCoreinit()
 void RPInitializer::RPDatabaseInterfaceinit()
 {
 
-	printf("Init RPDatabaseInterfaceinit !\n");
-	RPDataBasedConfigParameter m_DatabaseConfigParameter;
+	printf("Init RPDatabaseInterfaceinit 2 !\n");
+	RPDatabaseInitialize m_RP;
+	m_RP.initMariaDataBase();
 //	printf("Hostname = %s\n",(char const*)m_DatabaseConfigParameter.Hostname);
 //	// static account_ref create(const std::string &host_name, const std::string &user_name, const std::string &password,
 //    //const std::string &schema = "", u32 port = 3306, const std::string &unix_socket = "");
