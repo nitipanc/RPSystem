@@ -20,8 +20,8 @@ int main(void)
 	m_RPInit.RPSAPPinit();
 	m_RPInit.RPSCoreinit();
 
-	MYSQL *mysql1;
-	mysql1 = mysql_init(NULL);
+//	MYSQL *mysql1;
+//	mysql1 = mysql_init(NULL);
 	return 0;
 }
 ;
